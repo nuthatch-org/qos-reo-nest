@@ -1,13 +1,13 @@
 # yatr - https://github.com/cargopete/yatr
 #
-# Task names are the same across every nightswatchhq repo, so `yatr ci` means
+# Task names are the same across every nuthatch-org repo, so `yatr ci` means
 # the same thing wherever you are. Note that `ci` is deliberately not called
 # `check`: `yatr check` is a builtin that validates this file, and it shadows
 # any task of that name without warning.
 
 # A nest is config, not code: nuthatch.toml plus derived artifacts. These tasks
 # need the `nuthatch` binary on PATH, from a build with `[[ipfs]] cid_json_path`
-# (nightswatchhq/nuthatch#1367).
+# (nuthatch-org/nuthatch#1367).
 
 [settings]
 cache = true

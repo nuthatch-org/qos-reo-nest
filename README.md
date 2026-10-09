@@ -10,7 +10,7 @@ nuthatch sql --dir qos-reo-nest "SELECT * FROM qos_indexer_daily WHERE day = DAT
 ```
 
 Needs a nuthatch build with typed rows from IPFS documents: `[ipfs.rows]` (RFC-0037 slice 8, stacked on
-nightswatchhq/nuthatch#1375).
+nuthatch-org/nuthatch#1375).
 
 ## What the oracle publishes
 
